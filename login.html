@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Sign Up</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <!-- کانتینر اصلی شامل فرم‌ها و overlay -->
+        
+        <div class="form-container sign-in-container">
+            <!-- کانتینر فرم ورود -->
+            <form action="#">
+                <h1>Sign In</h1>
+                <!-- عنوان فرم ورود -->
+                <input type="email" placeholder="Email" required />
+                <!-- ورودی ایمیل برای ورود -->
+                <input type="password" placeholder="Password" required />
+                <!-- ورودی رمز عبور برای ورود -->
+                <button type="submit">ورود</button>
+                <!-- دکمه ارسال فرم ورود -->
+            </form>
+        </div>
+
+        <div class="form-container sign-up-container">
+            <!-- کانتینر فرم ثبت‌نام -->
+            <form action="#">
+                <h1>Sign Up</h1>
+                <!-- عنوان فرم ثبت‌نام -->
+                <input type="text" placeholder="Username" required />
+                <!-- ورودی نام کاربری برای ثبت‌نام -->
+                <input type="email" placeholder="Email" required />
+                <!-- ورودی ایمیل برای ثبت‌نام -->
+                <input type="password" placeholder="Password" required />
+                <!-- ورودی رمز عبور برای ثبت‌نام -->
+                <button type="submit">عضویت</button>
+                <!-- دکمه ارسال فرم ثبت‌نام -->
+            </form>
+        </div>
+
+        <div class="overlay-container">
+            <!-- کانتینر overlay که شامل محتوای متنی و دکمه‌های جابجایی بین فرم‌ها است -->
+            <div class="overlay">
+                <h1>! سلام دوست من </h1>
+                <!-- عنوان overlay -->
+                <p>اطلاعات مورد نیاز را وارد کن و عضوی از ما شو</p>
+                <!-- توضیحات در overlay -->
+                <button id="signUp">عضویت</button>
+                <!-- دکمه برای نمایش فرم ثبت‌نام -->
+                <button id="signIn">ورود</button>
+                <!-- دکمه برای نمایش فرم ورود -->
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

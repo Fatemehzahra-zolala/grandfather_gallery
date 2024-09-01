@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تسویه حساب</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+  <div class="checkout-container">
+    <div class="cart-header">
+      <span>“صفر تا صد طراحی قالب وردپرس” به سبد خرید شما افزوده شد.</span>
+      <button class="continue-shopping">ادامه خرید</button>
+    </div>
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>محصول</th>
+          <th>تعداد لایسنس</th>
+          <th>قیمت</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>آموزش افزایش سرعت سایت</td>
+          <td>1</td>
+          <td>990,000 تومان</td>
+          <td><button class="remove-item">×</button></td>
+        </tr>
+        <tr>
+          <td>صفر تا صد طراحی قالب وردپرس</td>
+          <td>1</td>
+          <td>3,200,000 تومان</td>
+          <td><button class="remove-item">×</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="discount-code">
+      <span>کد تخفیف دارید؟ برای نوشتن کد اینجا کلیک کنید</span>
+    </div>
+    <div class="checkout-details">
+      <form>
+        <div class="form-group">
+          <label for="first-name">نام:</label>
+          <input type="text" id="first-name" name="first-name" required>
+        </div>
+        <div class="form-group">
+          <label for="last-name">نام خانوادگی:</label>
+          <input type="text" id="last-name" name="last-name" required>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,640 @@
+/*body {
+    background-image: url("background.jpg");
+    background-size: cover;
+ 
+}*/
+h1 {
+    font-family: 'Nazanin', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    border: 8px solid burlywood;
+    margin-top: 0px;
+    background-color: burlywood;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+@font-face {
+    font-family: 'Nazanin';
+    src: url('B-NAZANIN.TTF');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+
+.p{
+    font-family: 'playwrite', sans-serif;
+    margin-top: 30px;
+    float: left;
+}
+@font-face {
+    font-family: 'playwrite';
+    src: url('PlaywriteAUVIC-ExtraLight.ttf');
+}
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  
+  li a {
+    color: black;
+    display: block;
+    padding: 8px;
+    padding-left: 40px;
+    background-color: white;
+    text-decoration: none;
+  }
+
+.img1 {
+    width:20px;height:30px;
+    position: absolute;
+    top: 45px; /* فاصله از بالا */
+    left: 260px; /* فاصله از چپ */
+    
+}
+.img2 {
+    width:120px;height:120px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+h3 {
+    position: absolute;
+    top: 70px;
+    right: 250px;
+    font-size: 60px;
+    font-family: 'Lalezar', sans-serif;
+}
+@font-face {
+    font-family: 'Lalezar';
+    src: url('Lalezar-Regular.ttf');
+}
+.navbar {
+    font-family: 'Lalezar', sans-serif;
+    margin-top: 150px;
+    margin-right: 70px;
+    float: right;
+}
+.img4 {
+    width:400px;height:300px;
+    position: absolute;
+    top: 100px;
+    left: 90px;
+}
+.hr1 {
+    width: 550px;
+    position: absolute;
+    top: 393px;
+    left: 20px;
+}
+.p1 {
+    font-family: 'Lalezar', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 400px;
+    right: 70px;
+    border: 8px solid burlywood;
+    background-color: burlywood;
+    padding-left: 120px;
+    padding-top: 20px;
+    right: 0px;
+}
+.img3 {
+    width: 420px; height: 500px;
+    position: absolute;
+    top: 600px;
+    right: 0px;
+    background-color: burlywood;
+    padding-right: 100px;
+    padding-left: 198px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+@font-face {
+    font-family: 'Vazir';
+    src: url('Vazir.ttf');
+}
+.p2 {
+    font-family: 'Lalezar', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top: 380px;
+    left: 360px;
+}
+
+
+.div1 {
+    font-family: 'Nazanin', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top: 450px;
+    right: 800px;
+    line-height: 1; 
+    
+}
+.hr2 {
+    width: 550px;
+    position: absolute;
+    top: 610px;
+    left: 20px;
+}
+.div2 {
+    font-family: 'Nazanin', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top: 600px;
+    right: 800px;
+    line-height: 1; 
+    
+}
+.hr3 {
+    width: 550px;
+    position: absolute;
+    top: 780px;
+    left: 20px;
+}
+.div3 {
+    font-family: 'Nazanin', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top: 770px;
+    right: 800px;
+    line-height: 1; 
+}
+.hr4 {
+    width: 550px;
+    position: absolute;
+    top: 940px;
+    left: 20px;
+}
+.div4 {
+    font-family: 'Nazanin', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top: 930px;
+    right: 800px;
+    line-height: 1; 
+}
+.a1 {
+    position: absolute;
+    top: 1100px;
+    right: 800px;
+    text-decoration: none;
+    font-family: 'Lalezar', sans-serif;
+}
+.h41 {
+    font-family: 'Lalezar', sans-serif;
+    font-size: 28px;
+    position: absolute;
+    top: 1200px;
+    right: 58px;
+}
+.reviews {
+    position: absolute;
+    top: 1280px;
+    right: 30px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .review-item {
+    display: flex;
+    border-radius: 10px;
+    align-items: flex-start; /* Align items to the start */
+    padding: 20px;
+    margin-bottom: 7px;
+    background-color: #f9f9f9; /* Optional: Add a background color for better readability */
+  }
+  
+  .review-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .review-text {
+    font-family: 'Nazanin', sans-serif;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    flex: 1;
+  }
+  
+  .review-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .review-item p {
+    margin: 5px 0;
+  }
+  
+  .green {
+    background-color: #94bfa2;
+  }
+  
+  .wood {
+    background-color: #deb887;
+  }
+  
+  .yellow {
+    background-color: #fbf2a3;
+  }
+  
+  .pink {
+    background-color: #ffc0cb;
+  }
+  .lightred {
+    background-color: #ff7f7f;
+  }
+  .lightpurple {
+    background-color: #cdb5e4;
+  }
+  .blue {
+    background-color: #6ec2ca;
+  }
+
+.title {
+  font-family: 'Lalezar', sans-serif;
+  font-size: 25px;
+}
+
+
+
+.book img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.genre hr {
+  width: 400px;
+  right: 500px;
+}
+.item {
+  display: flex;
+  gap: 45px;
+  overflow-x: auto;
+  right: 500px;
+}
+.book {
+  text-align: center;
+  font-family: 'Nazanin', sans-serif;
+  font-size: 15px;
+}
+
+.detail-btn {
+  background-color: #ff7f7f;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  padding: 5px 10px;
+  font-size: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.detail-btn:hover {
+  background-color: #cdb5e4;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.detail-btn:active {
+  background-color: #cdb5e4;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(0);
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+  background-color: #edc3f1;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 550px; /* حداکثر عرض */
+  height: 80%;
+  max-height: 450px; /* حداکثر ارتفاع */
+  overflow: auto; /* اضافه کردن اسکرول برای محتوا */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.close {
+  color: #aaa;
+  align-self: flex-end;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: row; /* نمایش افقی */
+  align-items: flex-start; /* شروع محتوا از ابتدای بخش */
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.book-details {
+  flex: 1;
+  font-size: 25px;
+  font-family: 'Nazanin', sans-serif;
+  padding: 10px;
+  text-align: right; /* متن راست‌چین */
+  overflow: auto; /* اضافه کردن اسکرول برای محتوای زیاد */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* متن از ابتدای بخش شروع شود */
+  justify-content: flex-start; /* متن از ابتدای بخش شروع شود */
+}
+
+@font-face {
+  font-family: 'Nazanin';
+  src: url('B-NAZANIN.TTF');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.book-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-left: 20px;
+  position: relative; /* برای نمایش متن hover */
+}
+
+.quantity-btn {
+  padding: 5px 10px;
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.add-to-cart {
+  padding: 0px 0px;
+  
+  border: none;
+  cursor: pointer;
+  position: relative; /* برای قرار دادن متن hover */
+}
+.cart {
+  width: 50px;
+  height: 50px;
+}
+
+.hover-text {
+  position: absolute;
+  bottom: 60px; /* موقعیت متن بالاتر از عکس */
+  left: 50%; /* وسط‌چین افقی */
+  transform: translateX(-50%); /* مرکز متن به دقت */
+  background-color: rgba(247, 233, 245, 0.6); /* پس‌زمینه نیمه شفاف */
+  color: #000000; /* رنگ متن سفید */
+  padding: 10px;
+  border-radius: 5px; /* گوشه‌های گرد */
+  opacity: 0; /* پنهان کردن متن به طور پیش‌فرض */
+  transition: opacity 0.3s ease; /* افکت انتقال نرم */
+  text-align: right; /* وسط‌چین کردن متن */
+  width: 150px; /* عرض متن */
+  font-size: 20px;
+}
+
+.add-to-cart:hover .hover-text {
+  opacity: 1; /* نمایش متن هنگام hover */
+}
+
+
+
+#sciense {
+  position: absolute;
+  top: 1370px;
+  }
+
+.arrow-container {
+  position: absolute;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+#showMore {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #000000;
+  padding: 0;
+}
+
+#showMore:hover {
+  border-right-color: #f907b0;
+}
+
+#fls1 {
+  position: absolute;
+  top: 1440px;
+}
+
+#love {
+  position: absolute;
+  top: 1670px;
+}
+
+#fls2 {
+  position: absolute;
+  top: 1740px;
+}
+
+#fantasy {
+  position: absolute;
+  top: 1970px;
+}
+
+#fls3 {
+  position: absolute;
+  top: 2040px;
+}
+
+#clasic {
+  position: absolute;
+  top: 2270px;
+}
+
+#fls4 {
+  position: absolute;
+  top: 2340px;
+}
+
+#art {
+  position: absolute;
+  top: 2570px;
+}
+
+#fls5 {
+  position: absolute;
+  top: 2640px;
+}
+
+#scary {
+  position: absolute;
+  top: 2870px;
+}
+
+#fls6 {
+  position: absolute;
+  top: 2940px;
+}
+
+#crime {
+  position: absolute;
+  top: 3170px;
+}
+
+#fls7 {
+  position: absolute;
+  top: 3240px;
+}
+
+#comedy {
+  position: absolute;
+  top: 3470px;
+}
+
+#fls8 {
+  position: absolute;
+  top: 3540px;
+}
+
+#history {
+  position: absolute;
+  top: 3770px;
+}
+
+#fls9 {
+  position: absolute;
+  top: 3840px;
+}
+
+#play {
+  position: absolute;
+  top: 4070px;
+}
+
+#fls10 {
+  position: absolute;
+  top: 4140px;
+}
+
+#motivational {
+  position: absolute;
+  top: 4370px;
+}
+
+#fls11 {
+  position: absolute;
+  top: 4440px;
+}
+
+#biography {
+  position: absolute;
+  top: 4670px;
+}
+
+#fls12 {
+  position: absolute;
+  top: 4740px;
+}
+
+.reviews2 {
+  position: absolute;
+  top: 2800px;
+  right: 30px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.h42 {
+  font-family: 'Lalezar', sans-serif;
+  font-size: 28px;
+  position: absolute;
+  top: 2700px;
+  right: 58px;
+}
+
+.footer {
+  font-family: 'Nazanin', sans-serif;
+  position: absolute;
+  top: 4970px;
+  right: 0px;
+  left: 0px;
+  background-color: burlywood;
+  color: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  font-size: 20px;
+  flex: 1;
+  text-align: left;
+}
+.footer-right {
+  font-size: 25px;
+  flex: 1;
+  text-align: right;
+}
+.footer-center {
+  font-size: 20px;
+  flex: 1;
+  text-align: center;
+}

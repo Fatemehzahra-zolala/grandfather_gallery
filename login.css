@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/* تنظیمات عمومی برای بدنه صفحه، شامل فونت، رنگ پس‌زمینه و موقعیت‌دهی عناصر به صورت وسط‌چین */
+
+.container {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+/* تنظیمات برای کانتینر اصلی شامل ابعاد، رنگ پس‌زمینه، گرد کردن گوشه‌ها و ایجاد سایه */
+
+.form-container {
+    width: 50%;
+    padding: 40px;
+    transition: transform 0.6s ease-in-out;
+}
+/* تنظیمات برای کانتینر فرم‌ها شامل عرض، پدینگ و انیمیشن برای جابجایی */
+
+.sign-in-container {
+    transform: translateX(0);
+}
+/* فرم ورود به صورت پیش‌فرض در جای خود قرار دارد */
+
+.sign-up-container {
+    transform: translateX(100%);
+}
+/* فرم ثبت‌نام به سمت راست جابجا شده است، در ابتدا خارج از دید */
+
+@font-face {
+    font-family: 'Lalezar';
+    src: url('Lalezar-Regular.ttf');
+}
+
+.overlay-container {
+    font-family: 'Lalezar', sans-serif;
+    width: 50%;
+    height: 100%;
+    background-image: url("imgloggin.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black, 0 0 25px  burlywood, 0 0 5px rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+/* تنظیمات برای کانتینر overlay که در سمت راست قرار دارد و دارای رنگ پس‌زمینه آبی و متن سفید است */
+
+.overlay {
+    text-align: center;
+    padding: 0 40px;
+}
+/* تنظیمات برای محتوای داخلی overlay شامل مرکز چین کردن متن‌ها و پدینگ */
+
+.overlay h1 {
+    margin-bottom: 20px;
+}
+/* فاصله زیرین عنوان‌ها در overlay */
+
+.overlay p {
+    margin-bottom: 30px;
+}
+/* فاصله زیرین پاراگراف‌ها در overlay */
+
+.overlay button {
+    background-color: white;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+/* استایل دکمه‌های داخل overlay با پس‌زمینه سفید و رنگ متن آبی */
+
+.overlay button:hover {
+    background-color: burlywood;
+    color: white;
+}
+
+.container.right-panel-active .sign-in-container {
+    transform: translateX(-100%);
+    font-family: 'Lalezar', sans-serif;
+}
+/* وقتی کلاس right-panel-active به کانتینر اضافه می‌شود، فرم ورود به سمت چپ حرکت می‌کند */
+
+.container.right-panel-active .sign-up-container {
+    transform: translateX(0);
+    font-family: 'Lalezar', sans-serif;
+}
+/* فرم ثبت‌نام به موقعیت اصلی باز می‌گردد و در مرکز نمایش داده می‌شود */
+
+.container.right-panel-active .overlay-container {
+    transform: translateX(-100%);
+}
+/* کانتینر overlay به سمت چپ حرکت می‌کند تا جای خود را با فرم ثبت‌نام عوض کند */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+/* فرم‌ها به صورت عمودی چینش شده‌اند */
+
+form h1 {
+    margin-bottom: 20px;
+}
+/* فاصله زیرین عنوان فرم‌ها */
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* استایل ورودی‌های فرم شامل فاصله، پدینگ، سایز فونت، مرز و گرد کردن گوشه‌ها */
+
+form button {
+    background-color: rgb(210, 159, 94);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* استایل دکمه‌های فرم با پس‌زمینه آبی، بدون مرز و گرد کردن گوشه‌ها */
