@@ -24,6 +24,11 @@ h2 {
     src: url('Lalezar-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'dancing';
+    src: url('DancingScript.ttf');
+}
+
 header {
     background-color: burlywood;
     color: #ffffff;
@@ -205,9 +210,29 @@ header {
     margin-right: 1px;
 }
 
-.cafe4 {
+.hr1 {
+    width: 550px;
     position: absolute;
-    top: 100px;
-    width: 100px;
-    height: 100px;
+    top: 1023px;
+    left: 60px;
+    border-top: 1px dotted red;
+}
+
+.granddad {
+    font-family: 'dancing', sans-serif;
+    font-size: 30px;
+}
+
+.hr2 {
+    width: 550px;
+    position: absolute;
+    top: 1023px;
+    right: 60px;
+    border-top: 1px dotted red;
+}
+
+.hi {
+    position: absolute;
+    top: 2023px;
+    left: 0px;
 }
