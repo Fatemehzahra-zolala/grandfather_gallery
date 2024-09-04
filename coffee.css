@@ -200,7 +200,14 @@ header {
 
 .coffee-item img {
     width: 100px;
-    height: auto;
+    height: 100px;
     margin-top: 2px;
     margin-right: 1px;
+}
+
+.cafe4 {
+    position: absolute;
+    top: 100px;
+    width: 100px;
+    height: 100px;
 }
