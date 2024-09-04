@@ -164,18 +164,11 @@ header {
 .h42 {
     font-family: 'Lalezar', sans-serif;
     font-size: 28px;
-    position: absolute;
-    top: 680px;
-    right: 640px;
 }
 
 .coffee {
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    top: 760px;
-    right: 45px;
-    left: 45px;
     margin: 0 auto;
     padding: 20px;
     gap: 10px;
@@ -212,9 +205,6 @@ header {
 
 .hr1 {
     width: 550px;
-    position: absolute;
-    top: 1023px;
-    left: 60px;
     border-top: 1px dotted red;
 }
 
@@ -223,13 +213,6 @@ header {
     font-size: 30px;
 }
 
-.hr2 {
-    width: 550px;
-    position: absolute;
-    top: 1023px;
-    right: 60px;
-    border-top: 1px dotted red;
-}
 
 .hi {
     position: absolute;
