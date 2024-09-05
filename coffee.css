@@ -16,17 +16,17 @@ h2 {
 
 @font-face {
     font-family: 'playfire';
-    src: url('playfire.ttf');
+    src: url('fonts/playfire.ttf');
 }
 
 @font-face {
     font-family: 'Lalezar';
-    src: url('Lalezar-Regular.ttf');
+    src: url('fonts/Lalezar-Regular.ttf');
 }
 
 @font-face {
     font-family: 'dancing';
-    src: url('DancingScript.ttf');
+    src: url('fonts/DancingScript.ttf');
 }
 
 header {
@@ -64,7 +64,7 @@ header {
 /* جهت‌دهی متن در فیلد جستجو به سمت راست */
 
 .hero {
-    background-image: url('coffeebar.jpg');
+    background-image: url('coffeepage/coffeebar.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -142,22 +142,22 @@ header {
 }
 
 .warmbar {
-    background-image: url('cafebar.jpg');
+    background-image: url('coffeepage/cafebar.jpg');
     background-size: cover;
 }
   
 .damnoosh {
-    background-image: url('damnoosh.jpg');
+    background-image: url('coffeepage/damnoosh.jpg');
     background-size: cover;
 }
   
 .breakfast {
-    background-image: url('breakfast.jpg');
+    background-image: url('coffeepage/breakfast.jpg');
     background-size: cover;
 }
 
 .coldbar {
-    background-image: url('coldbar.jpg');
+    background-image: url('coffeepage/coldbar.jpg');
     background-size: cover;
 }
 
@@ -213,9 +213,19 @@ header {
     font-size: 30px;
 }
 
-
-.hi {
+footer {
     position: absolute;
-    top: 2023px;
+    top: 2200px;
     left: 0px;
+    right: 0px;
+    background-color: burlywood;
+    color: #000000;
+    padding: 20px 0;
 }
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+}
+
+
